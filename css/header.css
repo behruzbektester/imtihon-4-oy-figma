@@ -1,0 +1,13 @@
+.header {
+  padding-top: 3.2rem;
+}
+
+.header__logo:hover {
+  opacity: 60%;
+}
+
+@media (max-width: 600px) {
+  .header .container {
+    margin: 0 3.2rem;
+  }
+}

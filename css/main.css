@@ -1,0 +1,443 @@
+.header-section {
+  background-image: url(../images/pattern-light-bg.svg);
+  background-color: #faf5f3;
+}
+
+.book-club-section {
+  position: relative;
+}
+
+.book-club-section__sides-container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+h1 {
+  width: 40rem;
+  font-size: 6.2rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #b87333, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h1-text {
+  width: 57rem;
+  font-family: "Inter";
+  letter-spacing: -0.05rem;
+  padding-bottom: 3.2rem;
+}
+
+.book-club-section__right {
+  max-width: 100%;
+  width: 53.6rem;
+  height: 60.6rem;
+}
+
+.book-club-section__right-image {
+  border-radius: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.book-club-section__left__users {
+  display: flex;
+  align-items: end;
+  gap: 1.2rem;
+  padding-top: 2.25rem;
+}
+
+.book-club-section__left__users__left img {
+  width: 11rem;
+  height: 4rem;
+}
+
+.book-club-section__left__users__right-text {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
+}
+
+.glow {
+  position: absolute;
+  top: 3rem;
+  left: 120rem;
+}
+
+.read-together-section {
+  padding: 12rem 0;
+}
+
+.read-together-section__left {
+  max-width: 100%;
+  width: 56rem;
+  height: 52rem;
+}
+
+.read-together-section__left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.read-together-section__sides-container {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.read-together-section__right__heading {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #062630;
+  width: 53rem;
+  letter-spacing: -0.2rem;
+  padding-bottom: 3.4rem;
+}
+
+.read-together-section__right__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  width: 43.1rem;
+}
+
+.read-together-section__right__list__item {
+  font-family: "Inter";
+  letter-spacing: -0.05rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.not-average-club-section__sides-container {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  position: relative;
+}
+
+.not-average-club-section__heading {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #062630;
+  width: 53.4rem;
+  letter-spacing: -0.2rem;
+  padding-bottom: 2.4rem;
+}
+
+.not-average-club-section__sides-container p {
+  width: 53rem;
+  font-family: "Inter";
+  letter-spacing: -0.05rem;
+}
+
+.not-average-club-section__right {
+  max-width: 100%;
+  width: 56rem;
+  height: 52rem;
+}
+
+.not-average-club-section__right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.logos {
+  position: absolute;
+  bottom: 3.1rem;
+  left: 53rem;
+}
+
+.journey-section {
+  padding: 12rem 0;
+}
+
+.content-container {
+  padding: 8rem 6rem;
+  background-image: url(../images/pattern-light-bg.svg),
+    url(../images/pattern-glow.svg);
+  background-position: center, top right;
+  background-color: #faf5f3;
+  border-radius: 1.6rem;
+}
+
+.blur-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.journey-section__heading {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #062630;
+  letter-spacing: -0.2rem;
+  width: 51.2rem;
+  text-align: center;
+}
+
+.journey-section__boxes-container {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+
+.journey-section__box p {
+  color: #062630;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.journey-section__box-number-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2.4rem;
+}
+
+.journey-section__box-number {
+  font-size: 2.4rem;
+  line-height: 1;
+  border: 0.2rem solid #062630;
+  border-radius: 0.4rem;
+  width: 3rem;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-section {
+  padding-bottom: 12rem;
+}
+
+.membership-section__boxes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.membership-section__heading {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #062630;
+  letter-spacing: -0.2rem;
+  text-align: center;
+  padding-bottom: 6.4rem;
+}
+
+.membership-section__boxes {
+  border: 0.1rem solid #e6e1df;
+  border-radius: 0.8rem;
+  width: 28.6rem;
+  padding: 2.4rem;
+}
+
+.center-box {
+  width: 35rem;
+  background-color: #faf5f3;
+  background-image: url(../images/pattern-glow.svg);
+  background-position: top left;
+  padding: 4rem 2.4rem;
+}
+
+.membership-section__boxes-heading {
+  padding-bottom: 2.4rem;
+  color: #062630;
+}
+
+.boxes-price {
+  color: #062630;
+  font-size: 3.4rem;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+  padding-bottom: 2.4rem;
+}
+
+hr {
+  color: #e6e1df;
+  margin-bottom: 2.4rem;
+}
+
+.membership-section__boxes-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding-bottom: 3.2rem;
+}
+
+.features-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-family: "Inter";
+}
+
+.quote-section__stars-container {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3.2rem;
+}
+
+.quote-section__heading {
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #062630;
+  letter-spacing: -0.1rem;
+  text-align: center;
+  padding-bottom: 3.2rem;
+}
+
+.quote-section p {
+  text-align: center;
+  font-family: "Inter";
+  letter-spacing: -0.05rem;
+  padding-bottom: 12rem;
+}
+
+@media (max-width: 1100px) {
+  .book-club-section__sides-container,
+  .read-together-section__sides-container,
+  .not-average-club-section__sides-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 970px) {
+  .journey-section {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 3.2rem;
+  }
+  .book-club-section__left {
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .membership-section__boxes-container {
+    width: 70.4rem;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .membership-section__boxes {
+    width: 34rem;
+    font-size: 1.6rem;
+    flex-wrap: wrap;
+  }
+  .center-box {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+  .quote-section {
+    width: 70.4rem;
+  }
+  .quote-section__stars-container {
+    justify-content: start;
+  }
+  .quote-section__heading {
+    width: 70.4rem;
+    text-align: left;
+  }
+  .quote-section p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 570px) {
+  h1 {
+    width: 34.3rem;
+  }
+  .h1-text {
+    width: 34.3rem;
+  }
+  .btn {
+    width: 34.3rem;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    padding: 2rem 2.3rem;
+    letter-spacing: -0.1rem;
+  }
+  .quote-section__stars-container {
+    justify-content: left;
+  }
+  .quote-section__heading {
+    text-align: left;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    width: 34.3rem;
+  }
+  .quote-section p {
+    text-align: left;
+  }
+  .read-together-section__left,
+  .read-together-section__right {
+    width: 34.3rem;
+  }
+  .read-together-section__right__heading {
+    font-size: 3.4rem;
+    line-height: 1.3;
+    width: 34.3rem;
+  }
+  .read-together-section__right__list {
+    width: 34.3rem;
+  }
+  .not-average-club-section__left {
+    width: 34.3rem;
+  }
+  .not-average-club-section__heading {
+    width: 34.3rem;
+    font-size: 3.4rem;
+    line-height: 1.1;
+    width: 34.3rem;
+  }
+  .not-average-club-section__left p {
+    width: 34.3rem;
+  }
+  .membership-section__heading {
+    text-align: left;
+  }
+  .membership-section__boxes-container {
+    flex-direction: column;
+    align-items: center;
+    width: 34.3rem;
+  }
+  .membership-section__boxes {
+    width: 34.3rem;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn {
+    width: 29.2rem;
+  }
+  .default-btn {
+    width: 35rem;
+  }
+}
